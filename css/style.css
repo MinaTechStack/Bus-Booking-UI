@@ -102,6 +102,7 @@ header {
     font-weight: 500;
     position: relative;
 }
+
 .train-ticket:hover {
     background-color: #f0f0f0 !important;
 }
@@ -186,7 +187,7 @@ header {
 
 .help:hover {
     background-color: #f2f2f2;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 .subtitle:hover {
@@ -213,6 +214,10 @@ header {
     font-weight: 700;
     z-index: 1;
     top: 100px;
+}
+
+.top-section h1 {
+    margin-top: 30px;
 }
 
 h1 {
@@ -300,6 +305,11 @@ h1 {
     justify-content: center;
     align-items: center;
     background-color: white;
+}
+
+.left-right-arrow:hover {
+    color: rgb(29, 29, 29);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 10px;
 }
 
 .from-box-2 {
@@ -1051,6 +1061,7 @@ h1 {
 
 .download2 img {
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .star-redbus {
@@ -1138,6 +1149,7 @@ h1 {
     color: rgb(29, 29, 29);
 }
 
+
 .presence2 {
     width: 1200px;
     height: 149px;
@@ -1145,6 +1157,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: auto;
 }
 
 .component {
@@ -1153,6 +1166,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 
 .global-txt {
@@ -2231,11 +2245,13 @@ button {
     margin-bottom: 1rem;
     cursor: pointer;
 }
+
 .step-nos {
     color: #d84e55;
     font-size: 16px;
     cursor: pointer;
 }
+
 .faq-title-section {
     width: 1128px;
     height: 40px;
@@ -2245,20 +2261,24 @@ button {
     line-height: 40px;
     margin: 26px 0px;
 }
+
 .contents-for-redRail {
     width: 1128px;
     height: 1910px;
 }
+
 .redrail-info {
     width: 1128px;
-   /* border: 2px solid darkblue; */
-   padding: 20px 0px;
-   border-bottom: 1px solid #e3e3e3;
+    /* border: 2px solid darkblue; */
+    padding: 20px 0px;
+    border-bottom: 1px solid #e3e3e3;
 }
+
 .redrail-info h4 {
     margin: 0;
     color: #465986;
 }
+
 .redrail-info p {
     margin: 8px 0px 14px;
     color: #3e3e52;
@@ -2266,12 +2286,14 @@ button {
     font-weight: 400;
     line-height: 20px;
 }
+
 .mid-section-of-footer {
     width: 1128px;
     height: 238px;
     /* border: 2px solid yellow; */
     display: flex;
 }
+
 .left-part-block {
     width: 789px;
     height: 238px;
@@ -2279,6 +2301,7 @@ button {
     gap: 8px;
     /* border: 2px solid yellowgreen; */
 }
+
 .right-part-block {
     width: 338px;
     height: 238px;
@@ -2286,12 +2309,14 @@ button {
     flex-direction: column;
     /* border: 2px solid gray; */
 }
+
 .column-of-left-part {
     width: 157px;
     height: 238px;
     /* border: 2px solid salmon; */
 }
-.information{
+
+.information {
     font-size: 14px;
     font-weight: 700;
     color: #7e7e8c;
@@ -2300,12 +2325,15 @@ button {
     /* border: 2px solid olive; */
     margin-bottom: 14px;
 }
+
 .column-of-left-part ul {
     list-style: none;
-    color: #fff;;
+    color: #fff;
+    ;
     font-size: 12px;
     line-height: 20px;
 }
+
 .bus-theme {
     font-size: 14px;
     line-height: 20px;
