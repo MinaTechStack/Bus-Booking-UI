@@ -126,13 +126,17 @@ header {
     width: 48px;
     height: 17px;
     border: 1px solid green;
+    outline: none;
+    border: none;
+    padding: 3px;
     position: absolute;
     top: 0;
     right: 0;
     border-radius: 6px;
     background: #60b681;
     color: white;
-    font-size: 11px;
+    font-size: 10px;
+    font-weight: 500;
 }
 
 .help {
