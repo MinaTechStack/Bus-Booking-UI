@@ -426,20 +426,33 @@ h1 {
 
 .container-2 {
     width: 1136px;
-    height: 168px;
+    min-height: 168px;
     /* border: 2px solid red; */
     display: flex;
-    gap: 20px;
+    gap: 24px;
     align-items: center;
+    margin-top: -22px;
+    overflow-x: hidden;  /* Hide scrollbar by default */
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+.major-section{
+    min-height: 168px;
+}
+.container-2:hover{
+    overflow-x: auto;
+    cursor: pointer;
 }
 
 .items {
     width: 300px;
-    height: 168px;
+    min-height: 168px;
     /* border: 2px solid darkgreen; */
     border-radius: 16px;
     display: flex;
     gap: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .items:nth-child(1) {
@@ -515,7 +528,7 @@ h1 {
     background: rgba(255, 255, 255, 0.2);
     text-align: center;
     font-size: 12px;
-    font-family: 600;
+    font-weight: 600;
 }
 
 .offer-icon {
@@ -570,11 +583,20 @@ h1 {
 
 .division-2 {
     width: 1215px;
-    height: 258px;
+    min-height: 258px;
+    margin-bottom: 20px;
     /* border: 2px solid red; */
     display: flex;
     gap: 20px;
     align-items: center;
+    overflow-x: hidden;  /* Hide scrollbar by default */
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    cursor: pointer;
+    scrollbar-width: thin;
+}
+.division-2:hover{
+    overflow-x: auto;
 }
 
 .sec-box {
@@ -1384,6 +1406,7 @@ h1 {
     display: flex;
     justify-content: center;
     cursor: pointer;
+    scroll-behavior: smooth;
 }
 
 .popular {
