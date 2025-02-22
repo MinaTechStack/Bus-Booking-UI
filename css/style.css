@@ -583,7 +583,7 @@ h1 {
 
 .division-2 {
     width: 1215px;
-    min-height: 258px;
+    height: auto;
     margin-bottom: 20px;
     /* border: 2px solid red; */
     display: flex;
